@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+        <TextView android:id="@+id/tvOrderCode" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Order Code" android:textSize="20sp" android:textStyle="bold" />
+        <TextView android:id="@+id/tvDetail" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="Detail" />
+
+        <Spinner android:id="@+id/spStatus" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" />
+        <EditText android:id="@+id/etNote" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:hint="Catatan update status" />
+        <Button android:id="@+id/btnUpdateStatus" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="Update Status" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@android:drawable/sym_def_app_icon"
+        android:label="JastiProOps"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JastiProOps">
+        <activity android:name=".activities.ProfileActivity" />
+        <activity android:name=".activities.StaffFormActivity" />
+        <activity android:name=".activities.StaffListActivity" />
+        <activity android:name=".activities.OrderDetailActivity" />
+        <activity android:name=".activities.OrderFormActivity" />
+        <activity android:name=".activities.OrderListActivity" />
+        <activity android:name=".activities.ProductFormActivity" />
+        <activity android:name=".activities.ProductListActivity" />
+        <activity android:name=".activities.CustomerFormActivity" />
+        <activity android:name=".activities.CustomerListActivity" />
+        <activity android:name=".activities.DashboardActivity" />
+        <activity android:name=".activities.LoginActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
