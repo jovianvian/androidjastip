@@ -7,8 +7,8 @@
 
 ## Ubah Base URL
 File: `app/src/main/java/com/example/jastiproops/api/ApiClient.kt`
-- Emulator: `http://10.0.2.2/jastip_internal_api/`
-- HP fisik: `http://IP_LAPTOP/jastip_internal_api/`
+- Emulator: `http://192.168.0.22/jastip_internal_api/`
+- HP fisik: `http://192.168.0.22/jastip_internal_api/`
 
 ## Run di Emulator
 - Pastikan XAMPP Apache+MySQL aktif
@@ -23,3 +23,4 @@ File: `app/src/main/java/com/example/jastiproops/api/ApiClient.kt`
 ## Akun default
 - Manager: manager@jastipro.local / manager123
 - Petugas: petugas@jastipro.local / petugas123
+

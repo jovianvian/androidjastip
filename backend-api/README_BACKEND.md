@@ -13,7 +13,7 @@ Taruh semua isi folder ini di:
 Edit `config/database.php` jika user/password MySQL berbeda.
 
 ## Base URL default
-`http://10.0.2.2/jastip_internal_api/` (emulator)
+`http://192.168.0.22/jastip_internal_api/`
 
 ## Endpoint utama
 - `auth/login.php`
@@ -27,3 +27,4 @@ Edit `config/database.php` jika user/password MySQL berbeda.
 ## Akun default
 - Manager: `manager@jastipro.local` / `manager123`
 - Petugas: `petugas@jastipro.local` / `petugas123`
+

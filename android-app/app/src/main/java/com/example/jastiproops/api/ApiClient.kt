@@ -7,8 +7,8 @@ import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
 
 object ApiClient {
-    // Emulator: 10.0.2.2, HP fisik: ganti ke IP LAN laptop, contoh 192.168.0.22
-    private const val BASE_URL = "http://10.0.2.2/jastip_internal_api/"
+    // Base URL lokal (laptop): samakan dengan IP LAN server XAMPP
+    private const val BASE_URL = "http://192.168.0.22/jastip_internal_api/"
 
     private val logger = HttpLoggingInterceptor().apply {
         level = HttpLoggingInterceptor.Level.BODY
@@ -30,3 +30,4 @@ object ApiClient {
             .create(ApiService::class.java)
     }
 }
+
