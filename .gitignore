@@ -1,0 +1,6 @@
+﻿# local Android SDK path
+android-app/local.properties
+
+# build/cache
+android-app/.gradle/
+android-app/build/

@@ -1,5 +1,35 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <style name="Theme.JastiProOps" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/brand_primary</item>
+        <item name="colorPrimaryContainer">@color/brand_primary_dark</item>
+        <item name="colorSecondary">@color/brand_secondary</item>
+        <item name="android:windowBackground">@color/surface_main</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/surface_main</item>
+        <item name="materialButtonStyle">@style/Widget.JastiProOps.Button</item>
+        <item name="textInputStyle">@style/Widget.JastiProOps.TextInputLayout</item>
+    </style>
+
+    <style name="Widget.JastiProOps.Button" parent="Widget.Material3.Button">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="android:minHeight">52dp</item>
+    </style>
+
+    <style name="Widget.JastiProOps.OutlinedButton" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:textAllCaps">false</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="strokeColor">@color/outline_soft</item>
+    </style>
+
+    <style name="Widget.JastiProOps.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeColor">@color/outline_soft</item>
+        <item name="hintTextColor">@color/text_secondary</item>
+        <item name="boxCornerRadiusTopStart">14dp</item>
+        <item name="boxCornerRadiusTopEnd">14dp</item>
+        <item name="boxCornerRadiusBottomStart">14dp</item>
+        <item name="boxCornerRadiusBottomEnd">14dp</item>
     </style>
 </resources>

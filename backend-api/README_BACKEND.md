@@ -27,4 +27,3 @@ Edit `config/database.php` jika user/password MySQL berbeda.
 ## Akun default
 - Manager: `manager@jastipro.local` / `manager123`
 - Petugas: `petugas@jastipro.local` / `petugas123`
-
